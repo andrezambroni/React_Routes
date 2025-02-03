@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client"
 import { BrowserRouter } from "react-router"
 
 import "./main.css"
-import { AppRoutes } from "./routes/appRoutes"
+import { AppRoutes } from "./routes/AppRoutes"
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
